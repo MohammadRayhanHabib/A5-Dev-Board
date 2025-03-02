@@ -3,7 +3,7 @@
 let currentIndex = 0;
 
 document.getElementById('theme-btn').addEventListener('click', function() {
-    const colors = ["#974545", "#459790", "#974564", "#9661a5", "#4b7557", "#252424", "#e1e3eb"];
+    const colors = ["#974545", "#459790", "#974564", "#9661a5", "#4b7557", "#252424", "#F4F7FF"];
     document.body.style.backgroundColor = colors[currentIndex];
     currentIndex = (currentIndex + 1) % colors.length;
 });
@@ -73,7 +73,7 @@ document.getElementById('btn-1')
 
         newParagraph.classList.add(
             'p-4',
-            'bg-[#e1e3eb]',
+            'bg-[#F4F7FF]',
             'rounded-lg',
             'shadow-md', 'text-gray-700', 'font-medium', 'mt-2',
             'ml-2',
@@ -119,7 +119,7 @@ document.getElementById('btn-2')
 
         newParagraph.classList.add(
             'p-2',        // Padding
-            'bg-[#e1e3eb]', // Light blue background
+            'bg-[#F4F7FF]', // Light blue background
             'rounded-lg',
             'shadow-md',
             'text-gray-700',
@@ -167,7 +167,7 @@ document.getElementById('btn-3')
 
         newParagraph.classList.add(
             'p-2',        // Padding
-            'bg-[#e1e3eb]', // Light blue background
+            'bg-[#F4F7FF]', // Light blue background
             'rounded-lg',
             'shadow-md',
             'text-gray-700',
@@ -214,7 +214,7 @@ document.getElementById('btn-4')
 
         newParagraph.classList.add(
             'p-2',        // Padding
-            'bg-[#e1e3eb]', // Light blue background
+            'bg-[#F4F7FF]', // Light blue background
             'rounded-lg',
             'shadow-md',
             'text-gray-700',
@@ -260,7 +260,7 @@ document.getElementById('btn-5')
 
         newParagraph.classList.add(
             'p-2',
-            'bg-[#e1e3eb]',
+            'bg-[#F4F7FF]',
             'rounded-lg',
             'shadow-md',
             'text-gray-700',
@@ -305,7 +305,7 @@ document.getElementById('btn-6')
         let newParagraph = document.createElement('p');
         newParagraph.classList.add(
             'p-2',
-            'bg-[#e1e3eb]',
+            'bg-[#F4F7FF]',
             'rounded-lg',
             'shadow-md',
             'text-gray-700',
